@@ -15,7 +15,7 @@ public class AssignmentOnOperator {
 		int b=3;
 		int C= ((a++)*6)+(++b*5)+10; // post increment a=4, pre increment b=4
 			System.out.println("The value of C="+C);
-			System.out.println("Pow ="+Math.pow(4,8));
+			//System.out.println("Pow ="+Math.pow(4,8));
 
 	}
 	//Provide value for Ramesh basic Salary.His dearness allowrance is 40% of basic salary and house rent allowance is 70% of

@@ -1,6 +1,8 @@
 package Assignment;
 
 public class StatickBlock {
+	int a=10;
+	static int b=900;
 
 	static 
 	{
@@ -8,9 +10,24 @@ public class StatickBlock {
 	}
 	
 	public static void main(String[] args) {
+		StatickBlock bb=new StatickBlock();
+		
 		  
-	  staticMethod();
-      System.out.println("Hi am main Method ");
+	
+      System.out.println(bb.a);
+      System.out.println(b);
+      b=10000;
+      System.out.println(b);
+      System.out.println(bb.a);
+      StatickBlock bbb= null;
+      
+      //System.out.println(bbb.a);
+      System.out.println(bbb.b);
+      System.out.println("Static method executed."); 
+      System.out.println("Static method executed.");
+      
+      
+      
 	}
      
      static void staticMethod() {
