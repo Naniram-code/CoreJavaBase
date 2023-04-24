@@ -11,7 +11,8 @@ public class Ternary {
 //			result =20;
 //		System.out.println(result);
 
-    int n=10;
+    //int n=10;
+    int n=5;
     int result=0;
     result = n%2==0 ? 10 : 20;
 
